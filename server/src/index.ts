@@ -1,15 +1,14 @@
+import cors from "cors";
 import express from "express";
+import router from "./router";
 
 const app = express();
 
-app.get("", () => {});
+app.use(cors()); //free for all domains
+
+app.use(express.json());
+app.use(router);
 
 app.listen(3333, () => {
   console.log("Server is running...");
 });
-
-interface Ad {
-  id: string;
-  name: string;
-  createdAt: Date;
-}

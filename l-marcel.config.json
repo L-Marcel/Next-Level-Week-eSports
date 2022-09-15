@@ -1,0 +1,17 @@
+{
+	"name": "Next Level Week eSports",
+	"translatedDescription": "",
+	"pinned": false,
+	"technologies": [
+		"React.js",
+		"Node.js",
+		"React Native",
+		"JavaScript",
+		"TypeScript",
+		"HTML",
+		"CSS"
+	],
+	"links": {
+		"figma": "https://www.figma.com/file/MSzPshLYNNPSThXNmy6Cf7/NLW-eSports-(Community)"
+	}
+}

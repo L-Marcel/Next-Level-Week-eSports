@@ -16,6 +16,7 @@ router.get("/games", async(_: Request, res: Response) => {
       }
     }
   });
+  
   return res.json(games);
 });
 

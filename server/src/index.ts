@@ -4,7 +4,10 @@ import router from "./router";
 
 const app = express();
 
-app.use(cors()); //free for all domains
+app.use(cors({
+  origin: "*",
+  methods: ["POST", "GET"]
+})); //free for all domains
 
 app.use(express.json());
 app.use(router);

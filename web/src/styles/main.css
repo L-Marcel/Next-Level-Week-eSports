@@ -1,7 +1,7 @@
 @tailwind base;
 
 @layer base {
-  input {
+  input, select {
     @apply
       bg-zinc-900
       py-3

@@ -1,5 +1,5 @@
 <div valing="top">
-  <h1>Next Level Week <span>eSports</span></h1>
+  <h1>Next Level Week: <span>eSports</span></h1>
   <p>A full stack project to find players and make duos.</p>
   <nav>
     <div id="repository-buttons"/>
